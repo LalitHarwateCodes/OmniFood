@@ -23,6 +23,14 @@
     grid-template-columns: repeat(4,1fr);
 }
 
+.grid--5-cols{
+    grid-template-columns: repeat(5 ,1fr);
+}
+
+.grid--footer{
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
 .grid--center-vertically{
     align-items: center;
 }
@@ -94,6 +102,5 @@
 
 *:focus{
     outline: none;
-    /* outline: 4px solid black; */
-    box-shadow: 0 0 0 8px rgba(214, 118, 33, 0.338)
+    box-shadow: 0 0 0 0.8rem rgba(214, 118, 33, 0.338)
 }
